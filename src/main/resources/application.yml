@@ -8,7 +8,7 @@ spring:
   thymeleaf:
     cache: false
 mybatis:
-  type-aliases-package: mr.s.dao
+  type-aliases-package: mr.s.entity
   mapper-locations: classpath:mapper/*.xml
 logging:
   config: classpath:logback.xml
